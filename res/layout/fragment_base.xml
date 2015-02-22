@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+    
+    
+    <ScrollView 
+    android:id="@+id/scroll" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"> 
+    
+        
+
+		
+		<LinearLayout 
+		    android:id="@+id/event_layout0" 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:background="#eee">
+		   
+		<Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+		
+			<FrameLayout 
+			     android:id="@+id/cont1" 
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:background="#eee">
+			    
+			</FrameLayout>
+
+			<FrameLayout 
+			     android:id="@+id/cont2" 
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:background="#eee">
+
+			</FrameLayout>
+		
+			<FrameLayout 
+			    android:id="@+id/cont3"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:background="#eee">
+
+			</FrameLayout>
+			
+		</LinearLayout>
+		    
+
+		
+	</ScrollView>
+</FrameLayout>
+		
+
